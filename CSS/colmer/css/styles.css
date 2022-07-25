@@ -31,7 +31,7 @@ li {
     list-style-type: none;
 }
 
-li a {
+#onCampus, #online, #forCompanies, #signIn {
     text-decoration: none;
 }
 header {

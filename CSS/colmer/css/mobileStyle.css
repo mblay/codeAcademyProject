@@ -1,6 +1,133 @@
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     *{
         margin: 0 auto;
-        background-color: brown;
+        padding: 0 auto;
+        /* background-color: brown; */
     }
+
+    .colmer {
+        display: none;
+    }
+
+    #onCampus {
+        content: url(../capstone_colmar_assets/images/ic-on-campus.svg);
+    }
+
+    #online {
+        content: url(../capstone_colmar_assets/images/ic-online.svg);
+    }
+
+    #signIn {
+        content: url(../capstone_colmar_assets/images/ic-login.svg);
+    }
+    #forCompanies {
+        display: none;
+    }
+
+    .logo {
+        float: left;
+    }
+
+    ul {
+        left: 0;
+    }
+
+    .flex1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flex1 img {
+        padding: 0;
+        margin: 0;
+        gap: 0;
+        width: 100%;
+    }
+
+    .flex1-side {
+        padding: 16px 16px 32px;
+        margin: 0;
+    }
+
+    .flex1-side button {
+        margin: 0;
+        width: auto;
+    }
+
+    .grid {
+        display: flex;
+    }
+
+    .grid-image {
+        display: none;
+    }
+
+    .aside-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    /* .aside-flex img {
+        width: 100%;
+    } */
+
+    .aside1 {
+        padding: 16px 16px 64px;
+    }
+
+    .aside1 img {
+        content: url(../capstone_colmar_assets/images/information-orientation-mobile.jpg);
+        width: 100%;
+    }
+
+    .aside2 img {
+        content: url(../capstone_colmar_assets/images/information-campus-mobile.jpg);
+        width: 100%;
+    }
+
+    .aside2 {
+        padding: 0 16px 64px;
+    }
+
+    .aside3 img {
+        content: url(../capstone_colmar_assets/images/information-guest-lecture-mobile.jpg);
+        width: 100%;
+    }
+
+    .aside3 {
+        padding: 0 16px 32px;
+        background-color: inherit;
+    }
+
+    .aside-flex div {
+        padding: 16px 0 0 16px;
+        margin: 0;
+    }
+
+    .image-container img {
+        display: none;
+    }
+
+    .grid-container {
+        padding: 32px 16px;
+    }
+
+    .gridContainer-text {
+        display: none;
+    }
+
+    .image-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #onLine {
+        padding: 0 0 16px;
+    }
+
+
+  
 }
